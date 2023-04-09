@@ -1,7 +1,4 @@
-const BASE_URL =
-  window.location.host === "frontend.bits-pilani-eon.net" ? 
-    "https://backend.bits-pilani-eon.net/" :
-    "http://bitspilanieonbackend-env.eba-iewfgdnb.us-east-1.elasticbeanstalk.com/";
+const BASE_URL = "http://127.0.0.1:8000/";
 
 export const APIService = {
   dev: BASE_URL,
